@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255, 191, 221);
+    color: black;
+}
+
+#carinhosa {
+    width: 300px;
+    margin:auto;
+    display: block;
+}
+
+#linda {
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+hr {
+width: 500px;
+}
+
+section {
+        background: rgb(255, 255, 255);
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 600px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 0, 140);
+}
+.container {
+height: 90vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
