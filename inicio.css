@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 191, 221);
     color: black;
-    background-image: url("../050597cb8ef620b7915a1e2684e2e4ef.jpg");
+    background-image: url("../XD.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,14 +13,17 @@ body {
 }
 
 #linda {
-    width: 300px;
+    width: 350px;
     margin: auto;
     display: block;
 }
 
-
 hr {
 width: 500px;
+}
+
+h4 {
+color: rgb(218, 0, 134);
 }
 
 section {
