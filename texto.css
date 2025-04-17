@@ -2,27 +2,35 @@ body {
     background-color: rgb(255, 212, 230);
     color: black;
 }
- 
+
 #carinhosa {
     width: 300px;
-    margin:auto;
+    margin: auto;
     display: block;
+}
+
+#unica {
+    width: 250px;
+}
+
+#divertida {
+    width: 314px;
 }
 
 hr {
     width: 500px;
-    }
+}
 
 section {
-        background: rgb(255, 255, 255);
-        margin: 20px auto;
-        padding: 20px;
-        max-width: 600px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -31,4 +39,4 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    }
+}

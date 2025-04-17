@@ -5,10 +5,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 #carinhosa {
     width: 300px;
-    margin:auto;
+    margin: auto;
     display: block;
 }
 
@@ -19,33 +19,34 @@ body {
 }
 
 hr {
-width: 500px;
+    width: 500px;
 }
 
 h4 {
-color: rgb(218, 0, 134);
+    color: rgb(218, 0, 134);
 }
 
 section {
-        background: rgb(255, 235, 251);
-        margin: 20px auto;
-        padding: 20px;
-        max-width: 600px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 235, 251);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
     text-align: center;
     color: rgb(255, 0, 140);
 }
+
 .container {
     height: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    }
+}
