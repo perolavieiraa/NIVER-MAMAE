@@ -18,6 +18,15 @@ body {
     width: 311px;
 }
 
+#incrivel {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1160px;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
 hr {
     width: 500px;
 }
@@ -31,46 +40,34 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);[
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
 }
 
-.container {
-    height: 90vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background: #f0f0f0;
-}
-
+/* ====== CSS do Carrossel ====== */
 .carrossel-container {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding-bottom: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px 0;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .carrossel-container::-webkit-scrollbar {
-  height: 8px;
+    height: 8px;
 }
 
 .carrossel-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 4px;
+    background: #888;
+    border-radius: 4px;
 }
 
 .foto {
-  display: inline-block;
-  width: 250px;
-  height: 160px;
-  margin-right: 10px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
